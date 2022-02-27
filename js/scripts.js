@@ -35,7 +35,7 @@ const endGame = (isDraw) => {
     if (isDraw) {
         winningMessageTextElement.innerText = 'Empate!';
     } else {
-        winningMessageTextElement.innerText = isCircleTurn ? 'O Venceu!' : 'X Venceu!';
+        winningMessageTextElement.innerText = isCircleTurn ? 'Círculo Venceu!' : 'X Venceu!';
     };
 
     winningMessage.classList.add("show-winning-message");
